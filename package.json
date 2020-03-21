@@ -1,0 +1,17 @@
+{
+  "name": "inclouds",
+  "version": "1.0.0",
+  "description": "inclouds",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss dist/css/style.css -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "hompage": "https://GytisBal.github.io/inclouds.lt",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
